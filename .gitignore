@@ -1,0 +1,33 @@
+# Keil build output and local workspace files
+**/MDK-ARM/speed_meter/
+**/MDK-ARM/DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.map
+*.dep
+*.lnp
+*.sct.bak
+*.uvoptx
+*.uvguix.*
+*.bak
+*.log
+*.lock
+
+# Local tools / editors
+*.exe
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key

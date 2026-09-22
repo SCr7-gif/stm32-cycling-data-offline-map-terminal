@@ -1,0 +1,6 @@
+# Preserve original source bytes and line endings from the supplied archive.
+* -text
+*.jpg binary
+*.png binary
+*.gif binary
+*.bmp binary
