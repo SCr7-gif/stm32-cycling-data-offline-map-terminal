@@ -1,4 +1,4 @@
-# STM32 GPS 骑行码表
+# 基于 STM32 的骑行数据采集与离线地图终端
 
 **中文** | [English](README.en.md)
 
@@ -64,8 +64,8 @@
 1. 克隆仓库：
 
    ```bash
-   git clone https://github.com/SCr7-gif/stm32-gps-bike-computer.git
-   cd stm32-gps-bike-computer
+   git clone https://github.com/SCr7-gif/stm32-cycling-data-offline-map-terminal.git
+   cd stm32-cycling-data-offline-map-terminal
    ```
 
 2. 准备 Keil MDK-ARM。原工程指定 **ARM Compiler 5.06 update 7（build 960）** 和 **Keil.STM32F4xx_DFP 3.1.1**；CubeMX 配置记录的固件包为 **STM32Cube FW_F4 V1.28.3**。

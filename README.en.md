@@ -1,8 +1,8 @@
-# STM32 GPS Bike Computer
+# STM32 Cycling Data Acquisition and Offline Map Terminal
 
 [中文](README.md) | **English**
 
-An embedded cycling computer built with **STM32F405RGT6, FreeRTOS and LVGL 9.4**. Its 240 × 320 touchscreen displays offline maps, GPS speed, accumulated distance, coordinates, moving time, estimated incline and battery status. The device includes Chinese/English interface options and light/dark display modes.
+An embedded cycling data acquisition and offline map terminal built with **STM32F405RGT6, FreeRTOS and LVGL 9.4**. Its 240 × 320 touchscreen displays offline maps, GPS speed, accumulated distance, coordinates, moving time, estimated incline and battery status. The device includes Chinese/English interface options and light/dark display modes.
 
 ## Device Photos
 
@@ -64,8 +64,8 @@ Refer to [`speed_meter.ioc`](speed_meter.ioc) and [`Core/Inc/main.h`](Core/Inc/m
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/SCr7-gif/stm32-gps-bike-computer.git
-   cd stm32-gps-bike-computer
+   git clone https://github.com/SCr7-gif/stm32-cycling-data-offline-map-terminal.git
+   cd stm32-cycling-data-offline-map-terminal
    ```
 
 2. Set up Keil MDK-ARM. The supplied project specifies **ARM Compiler 5.06 update 7 (build 960)** and **Keil.STM32F4xx_DFP 3.1.1**. The CubeMX configuration records **STM32Cube FW_F4 V1.28.3**.
