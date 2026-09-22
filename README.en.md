@@ -12,7 +12,7 @@ An embedded cycling computer built with **STM32F405RGT6, FreeRTOS and LVGL 9.4**
 
 ## Features
 
-- **GPS acquisition:** receives NMEA data over USART2 with DMA; parses GGA and VTG for coordinates, satellite count and speed. Includes map coordinate conversion code.
+- **GPS acquisition:** receives NMEA data over a serial port; parses GGA and VTG for coordinates, satellite count and speed. Includes map coordinate conversion code.
 - **Ride statistics:** displays current speed, accumulated distance, moving time and motion status.
 - **Offline maps:** loads BMP tiles from an SD card through FatFs into a 3 × 3 grid. Supports touch panning, zoom levels 3–14 and a recenter button.
 - **Incline estimation:** uses LSM6DSM acceleration readings to estimate a percentage from device tilt.
